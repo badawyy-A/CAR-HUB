@@ -429,32 +429,30 @@ nav .buttons .signup{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100vh;
+  height: fit-content;
   margin-right: 40px;
 }
 .gallery-page .container .card-container .card{
   width: 209px;
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .gallery-page .container .card-container .card img{
   min-width: 209px;
   height: 200px;
   border-radius: 0 0 0 8px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .gallery-page .container .card-container .card .rate{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 99%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .gallery-page .container .card-container .card .rate .stars {
   display: flex;
@@ -503,7 +501,7 @@ nav .buttons .signup{
   color: var(--text-color);
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .gallery-page .container .card-container .card .foot{
   width: 100%;
@@ -550,4 +548,5 @@ nav .buttons .signup{
     height: 35px;
     font-size: 12px;
   }
+
 }
